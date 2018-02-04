@@ -1,0 +1,6 @@
+PWD=`pwd` 
+ CLASSPATH=$PWD/JOSP.jar:"$CLASSPATH"
+for i in lib/*.jar; 
+do CLASSPATH=$PWD/$i:"$CLASSPATH"; 
+done 
+echo $CLASSPATH
