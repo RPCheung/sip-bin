@@ -4,6 +4,9 @@
 SIP_HOME=$(dirname "$PWD")
 export SIP_HOME
 
+CLOSE_PORT='10004'
+export CLOSE_PORT;
+
 JAVA_OPTS='-server -Xmx1024m -Xms1024m -Xmn64m -Xss32m'
 export JAVA_OPTS
 
