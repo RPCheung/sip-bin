@@ -5,7 +5,7 @@
 4. 然后实现 BusinessProcessor 接口
 5. 在 setUserComponent 方法中拿到 完成交易 所需的 对象 （包括 请求响应报文对象 MessageObject 、SqlSessionFactory等）
 6. 在 executeWorkFlow 方法中 编写主要的 逻辑与对MessageObject对象的 取值或赋值等操作
-7. 把编写好的 代码 打包成 jar 的形式，放入到 ./sip-bin/work/user/ 文件夹中
+7. // 项目部署组件 正在开发中...
 8. 进入到 bin 目录 执行 ./startup.sh
 9. 无异常抛出即为启动成功
 10. 如需关闭服务 请进入到 bin 目录 执行 ./stop.sh (以确保 完全关闭服务)
