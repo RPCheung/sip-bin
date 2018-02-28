@@ -20,4 +20,3 @@ export JAVA_OPTS
 #
 
 java ${JAVA_OPTS}  -classpath ${SIP_HOME}/work/sip/lib/script/sip-controller.jar com.rp.sip.SipController
- echo sip has stopped.
