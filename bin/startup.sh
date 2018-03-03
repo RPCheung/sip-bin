@@ -1,6 +1,7 @@
 # 回退两层
 #KEY_PATH=$(dirname "$(dirname "$PWD")")
 # 回退一层~
+
 SIP_HOME=$(dirname "$PWD")
 export SIP_HOME
 
@@ -21,5 +22,5 @@ read -p ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 按任意键将启
 # export CLASSPATH=$CLASSPATH:${SERVER_HOME}/conf/
 #-Djava.ext.dirs	~
 #
-
-java ${JAVA_OPTS} -Djava.ext.dirs=${JAVA_HOME}/jre/lib/ext:${SIP_HOME}/lib -classpath ${SIP_HOME}/conf com.rp.sip.SipBootstrap
+#${JAVA_HOME}/bin/jar 
+${JAVA_HOME}/jre/bin/java ${JAVA_OPTS} -Djava.ext.dirs=${JAVA_HOME}/jre/lib/ext:${SIP_HOME}/lib -classpath ${SIP_HOME}/conf com.rp.sip.SipBootstrap
