@@ -8,7 +8,8 @@ export SIP_HOME
 CLOSE_PORT='10004'
 export CLOSE_PORT;
 
-JAVA_OPTS='-server -Xmx1024m -Xms1024m -Xmn64m -Xss32m'
+# paranoid、advanced、disabled
+JAVA_OPTS='-server -Xmx1024m -Xms1024m -Xmn64m -Xss32m -Dio.netty.leakDetectionLevel=paranoid'
 export JAVA_OPTS
 
 echo "#### 请检查"${CLOSE_PORT}"端口和SIP服务端口是否被占用 若要检查!!!   请按 ctrl + c 退出.  "
