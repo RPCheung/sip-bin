@@ -1,4 +1,4 @@
-# sip 的使用
+# simple interface platform 的使用
 1. 用户首先下载 sip-bin 项目到本地
 2. 在eclipse上新建java 项目，然后把 (sip-bin)lib 文件夹下的所有 jar 包 build path 到新建的java项目中
 3. 然后定义 服务通讯报文的 POJO (注意 需加上 @ServsrReqMessage 、@ServsrResMessage)
